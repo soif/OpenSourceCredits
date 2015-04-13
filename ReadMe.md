@@ -1,4 +1,4 @@
-# OpenSourceCredits
+# Open Source Credits
 
 This php class allow to easily credit :
  - contributors involved in the project
