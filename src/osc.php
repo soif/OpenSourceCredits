@@ -33,9 +33,10 @@ class OpenSourceCredits{
 	// ------------------------------------------------------------------------------------
 	// tokens = (array) repo_name => token
 	// cache_path = path to the cache directory with a trailing slash
-	function __construct($tokens=array(),$cache_path=''){
+	function __construct($tokens=array(),$cache_path='',$cache_time=86400){
 		$this->tokens=$tokens;
 		$this->cache_path=$cache_path;		
+		$this->cache_time=$cache_time;		
 	}
 	
 	// ------------------------------------------------------------------------------------
